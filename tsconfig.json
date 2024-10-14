@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "outDir": "./dist",                // Output directory for compiled files
+    "rootDir": "./src",                // Root directory of your source files
+    "target": "ES6",                   // JavaScript version to target
+    "module": "ES6",              // Module system to use (for Node.js)
+    "declaration": true,               // Generate .d.ts declaration files
+    "strict": true,                    // Enable all strict type-checking options
+    "esModuleInterop": true,           // Allow default imports from CommonJS modules
+    "skipLibCheck": true               // Skip type checking of declaration files
+  },
+  "include": ["src"],                  // Files to include in the project
+  "exclude": ["node_modules", "dist", "tests"]  // Exclude node_modules and dist
+}
